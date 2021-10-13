@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" /> 
+        <title>contact page</title>   
+        <link href="../index.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+       
+        <div class="mainpage">
+            <div class="navbar-page">
+            <a href="/">Home</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="about.html">About Us</a>
+            <a href="project.html">My Project</a>
+            <a href="hobby.html">My Hobby</a>
+            <a href="education.html">My Education</a>
+        </div>
+        <h3 style="text-align: center"> Welcome To Contact Page </h3>
+        <div style="text-align: center">
+            <button id="myButton">
+                Go To Education Page
+            </button>
+        </div>
+        </div>
+        <script type="text/javascript">
+            document.getElementById("myButton").onclick = function () {
+                location.href = "education.html";
+            };
+        </script>
+    </body>
+</html>
